@@ -1,5 +1,5 @@
 var mongoose = require("mongoose");
-var sys = require("sys");
+var util = require("util");
 var schema = new mongoose.Schema({
     name  :  { type: String, default: 'hahaha' }
   , age   :  { type: Number, min: 18, index: true }
